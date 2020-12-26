@@ -1,0 +1,236 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.movie-details{
+  display: inline-block;
+  text-align: center;
+}
+.img-detail{
+  align-items: center;
+  margin-left: 550px;
+}
+.landing-container{
+  display: inline-block;
+}
+.users-container{
+  display: block;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+.userBox{
+  float: left;
+  margin-left: 5px;
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+
+}
+.self-movie{
+  display:inline-block;
+}
+.movieBox{
+  width: 100px;
+  height: 200px;
+}
+.catalogContainer{
+  display: inline;
+}
+
+img{
+  float: left;
+  width: 200px;
+  height: 300px;
+  margin: 2px 2px;
+}
+
+.self-movie {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-left: 2vw;
+}
+.centered {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  text-justify: center;
+  background-color: blue;
+  border-radius: 50%;
+  top: 8px;
+  left: 16px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.catalog-container{
+  margin-left: 50px;
+}
+.logo{
+color: #E50914;
+}
+.rented-catalog{
+margin-top: 10px;
+text-align: center;
+}
+.movies-catalog{
+margin-top: 10px;
+text-align: center;
+}
+
+* {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	font-size: calc(16px + (24 - 16)*(100vw - 320px)/(1920 - 320));
+}
+body, button, input {
+	font: 1em Hind, sans-serif;
+	line-height: 1.5em;
+}
+body, input {
+	color: black;
+}
+body, .search-bar {
+  display: flex;
+  margin: 10px 5px;
+  
+}
+body {
+	background: black;
+  height: 100vh;
+  color: white ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user-info{
+  margin-top: 10px;
+}
+.search-bar input,
+.search-btn, 
+.search-btn:before, 
+.search-btn:after {
+	transition: all 0.25s ease-out;
+}
+.search-bar input,
+.search-btn {
+	width: 2em;
+	height: 2em;
+}
+.search-bar input:invalid:not(:focus),
+.search-btn {
+	cursor: pointer;
+}
+.search-bar,
+.search-bar input:focus,
+.search-bar input:valid  {
+	width: 100%;
+}
+.search-bar input:focus,
+.search-bar input:not(:focus) + .search-btn:focus {
+	outline: transparent;
+}
+.search-bar {
+	margin-left: 5px ;
+	padding: 0.5em;
+	max-width: 10em;
+}
+.search-bar input {
+	background: transparent;
+	border-radius: 1.5em;
+	box-shadow: 0 0 0 0.4em white inset;
+	padding: 0.75em;
+	transform: translate(0.5em,0.5em) scale(0.5);
+	transform-origin: 100% 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.search-bar input::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+.search-bar input:focus,
+.search-bar input:valid {
+	background: white;
+	border-radius: 0.375em 0 0 0.375em;
+	box-shadow: 0 0 0 0.1em #d9d9d9 inset;
+	transform: scale(1);
+}
+.search-btn {
+	background: white;
+	border-radius: 0 0.75em 0.75em 0 / 0 1.5em 1.5em 0;
+	padding: 0.75em;
+	position: relative;
+	transform: translate(0.25em,0.25em) rotate(45deg) scale(0.25,0.125);
+	transform-origin: 0 50%;
+}
+.search-btn:before, 
+.search-btn:after {
+	content: "";
+	display: block;
+	opacity: 0;
+	position: absolute;
+}
+.search-btn:before {
+	border-radius: 50%;
+	box-shadow: 0 0 0 0.2em #f1f1f1 inset;
+	top: 0.75em;
+	left: 0.75em;
+	width: 1.2em;
+	height: 1.2em;
+}
+.search-btn:after {
+	background: #f1f1f1;
+	border-radius: 0 0.25em 0.25em 0;
+	top: 51%;
+	left: 51%;
+	width: 0.75em;
+	height: 0.25em;
+	transform: translate(0.2em,0) rotate(45deg);
+	transform-origin: 0 50%;
+}
+.search-btn span {
+	display: inline-block;
+	overflow: hidden;
+	width: 0.5px;
+	height: 0.5px;
+}
