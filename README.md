@@ -8,15 +8,16 @@ The app has three main views: the Landing Page, the Catalog Page, and the Movie 
 
 You can click the following pictures to embiggen them.
 
+Technologies I have used:🤓
+
+🛠 JavaScript
+
+🛠 ReactJS
+
 ![image](https://user-images.githubusercontent.com/42724186/109428853-89c6df80-7a01-11eb-8fd9-164e98784bab.png)
 
 ![image](https://user-images.githubusercontent.com/42724186/109428434-d01b3f00-79ff-11eb-8ea0-388f9c88195d.png)
 
 ![image](https://user-images.githubusercontent.com/42724186/109428470-efb26780-79ff-11eb-8368-b7c0d90acad9.png)
 
-Technologies I have used:🤓
-
-🛠 JavaScript
-
-🛠 ReactJS
 
