@@ -7,5 +7,16 @@ Reflix is a movie rental app. It allows a user to browse a catalog of movies, an
 The app has three main views: the Landing Page, the Catalog Page, and the Movie Detail Page. 
 
 You can click the following pictures to embiggen them.
-![image](https://user-images.githubusercontent.com/42724186/109428236-e248ad80-79fe-11eb-9308-2cd3b416cbab.png)
-![image](https://user-images.githubusercontent.com/42724186/109428262-fe4c4f00-79fe-11eb-832f-f3e033adfc5b.png)
+
+![image](https://user-images.githubusercontent.com/42724186/109428853-89c6df80-7a01-11eb-8fd9-164e98784bab.png)
+
+![image](https://user-images.githubusercontent.com/42724186/109428434-d01b3f00-79ff-11eb-8ea0-388f9c88195d.png)
+
+![image](https://user-images.githubusercontent.com/42724186/109428470-efb26780-79ff-11eb-8368-b7c0d90acad9.png)
+
+Technologies I have used:🤓
+
+🛠 JavaScript
+
+🛠 ReactJS
+
